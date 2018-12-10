@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+      .wrapper{
+          border:solid 1px black;
+          display:inline-block;
+          text-align:center;
+          margin:10px;
+          font-size:18px;
+          padding:5px;
+      }
+      input{
+          font-size:18px;
+          margin:10px;
+          padding:8px;
+      }
+      .chanCol{
+          background:yellow;
+      }
+      .traversed{
+          background:gray;
+      }
+      .searched{
+          background:darkblue;
+      }
+    </style>
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="wrapper id="fruit">Fruit
+            <div class="wrapper id="coldFruit">coldFruit
+                <div class="wrapper" >grape</div>
+                <div class="wrapper" >pear</div>
+                <div class="wrapper">pineapple</div>
+            </div>
+            <div class="wrapper" id="warmFruit">warmFruit
+                <div class="wrapper" >apple</div>
+                <div class="wrapper" >peach</div>
+                <div class="wrapper" >banana</div>
+            </div>
+        </div>
+        <div  class="wrapper" id="Animal">Animal
+            <div  class="wrapper" id="bird">bird
+                <div class="wrapper" >parrot</div>
+                <div class="wrapper" >eagle</div>
+            </div>
+            <div  class="wrapper" id="reptile">reptile
+                <div class="wrapper" >tiger</div>
+                <div class="wrapper" >lion</div>
+            </div>
+            <div  class="wrapper" id="amphibian">amphibian
+                <div class="wrapper" >frog</div>
+            </div>
+        </div>
+    </div>
+    <div class="operationChoice">
+        <input type="button" value="删除该节点以及子节点">
+        <input type="button" value="在选中节点下增加子节点">
+        <input type="text" placeholder="请添加新节点">
+        <input type="button" value="遍历多叉树">
+        <input type="text" placeholder="请输入查询内容" class="search">
+        <input type="button" value="查询" id="myBtn">
+    </div>
+</body>
+<script src="task.js"></script>
+</html>

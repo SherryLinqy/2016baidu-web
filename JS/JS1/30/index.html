@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    #inputList{
+        width:330px;
+        text-align:right;
+    }
+    .inputWrapper{
+        font-family:Arial, Helvetica, sans-serif;
+        margin:20px 30px;
+    }
+    input{
+        margin-left:30px;
+    }
+    .redText{
+        color:red;
+    }
+    .greenText{
+        color:greenyellow;
+    }
+    </style>
+</head>
+<body>
+    <div id="inputList">
+        <div class="inputWrapper">名称<input type="text" class=" input name"></div>
+        <div id="tipWrapper"></div>
+        <div class="inputWrapper">密码<input type="password" class=" input key"></div>
+        <div id="tipWrapper"></div>
+        <div class="inputWrapper">确认密码<input type="password" class="input confirm"></div>
+        <div id="tipWrapper"></div>
+        <div class="inputWrapper">邮箱<input type="text" class="input email"></div>
+        <div id="tipWrapper"></div>
+        <div class="inputWrapper">手机<input type="text" class="input phone"></div>
+        <div id="tipWrapper"></div>
+    </div>
+    <input type="submit" value="提交">
+</body>
+<script src="task.js"></script>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+       #pic{
+           /* width:404px;
+           height:404px;
+           border:solid 2px black;
+           box-sizing:border-box; */
+       }
+       #command{
+           margin-top:10px;
+       }
+       table{
+           border:solid 2px black;
+           border-collapse:collapse;
+       }
+       td{
+            border:solid 1px black;
+            height:40px;
+            width: 40px;
+           
+       }
+       #square{
+           position:relative;
+           width:43px;
+           height:43px;
+           /* left:172px;
+           top:-213px; */
+           /* left:transition 1s linear; */
+       }
+       #blue{
+        
+           width:43px;
+           height:7px;
+           background:blue;
+       }
+       #red{
+      
+           width:43px;
+           height:36px;
+           background:red;
+       }
+       .leftRot{
+           transform: rotate(270deg);
+       }
+    </style>
+</head>
+<body>
+    <div id="pic">
+        <table>
+            <tbody>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            </tbody>
+        </table>
+        <div id="square"><div id="blue"></div><div id="red"></div></div>
+    </div>
+    <div id="commandWrapper">
+        <input type="text" id="detailCommand">
+        <input type="button" id="submitB" value="执行">
+    </div>
+</body>
+<script src="task34.js"></script>
+</html>s

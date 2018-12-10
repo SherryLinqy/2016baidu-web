@@ -1,0 +1,55 @@
+.wrapper{
+    border:solid 1px black;
+    width:600px;
+    margin: 0 auto;
+}
+input{
+    margin:20px 10px;
+}
+.treeContent{
+    width:500px;
+    margin:10px auto;
+    font-family:"微软雅黑";
+}
+.contVisible{
+   margin:5px 18px;
+}
+.contInvisible{
+    display:none;
+}
+.empty-arrow{
+    display:none;
+}
+.down-arrow{
+    display:inline-block;
+    width:0;
+    height:0;
+    margin-right:5px;
+    border-top:solid 8px black;
+    border-left:solid 4px transparent;
+    border-right:solid 4px transparent
+}
+.node_name:hover{
+    color:blue;
+    cursor:pointer;
+}
+.traversed{
+    color:red;
+}
+.right-arrow{
+    display:inline-block;
+    width:0;
+    height:0;
+    margin-right:5px;
+    border-left:solid 8px black;
+    border-bottom:solid 4px transparent;
+    border-top:solid 4px transparent
+}
+
+.addButt,.deleButt{
+    display:none;
+    vertical-align:top;
+}
+.contVisible:hover>.addButt,.contVisible:hover>.deleButt{
+    display:inline;
+}
